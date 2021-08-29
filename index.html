@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Find-The-Number</title>
+</head>
+<body>
+    <section id="section">
+<!--         <img  id="gif" src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" disabled/>
+ -->
+        <div class="sec-body" id="number-container">
+            <span class="sec-body" id="number-info">Gues The Number (1 - 100)</span>
+            <div id="number-input">
+                
+                <input id="input-num" type="number" max="100" value="" placeholder="1-100"/>
+                <button id="check-button" type="button" onclick="">Check</button>
+                <button id="reset-button" type="button" onclick="">Reset</button>
+            </div>
+
+        </div>
+        <div class="sec-body" id="main-container">
+            <img src="./img//hat.png" alt="hat.img">
+            <span id="attempt-info">Write the Number</span>
+            <span id="knowledge"></span>
+            <p id="attempt">Number of Attempts: <span id="attempt-number">0</span></p>
+        </div>
+
+
+    </section>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
