@@ -47,7 +47,7 @@ function guesNumber() {
 
 function clearAndFocus () {
     inputNum.value = "";
-      
+      inputNum.focus();
 }
 
 function changeInput () {
